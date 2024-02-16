@@ -3,3 +3,5 @@ venv
 Dockerfile
 docker-compose.yml
 package-lock.json
+.dockerignore
+.env
