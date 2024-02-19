@@ -3,3 +3,30 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border: 3px rgba(41, 23, 156, 0.497) solid;
+}
+
+.tool-frame {
+    display: flex;
+    width: 20rem;
+    height: 20rem;
+}
+
+.tools {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: row;
+    border-top: 3px rgba(41, 23, 156, 0.497) solid;
+}
+
+.material-symbols-outlined:hover {
+    cursor: pointer;
+}

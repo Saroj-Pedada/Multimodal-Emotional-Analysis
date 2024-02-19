@@ -8,9 +8,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/main.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     </head>
     <body>
-        Hello from NodeJS!
-        <%= message %>
+        <div class="container">
+            <div class="tool-frame">
+                <video id="vid" width="20rem" height="20rem"></video>
+                <canvas id="canvas" width="20rem" height="20rem"></canvas>
+                <div id="text"
+            </div>
+            <div class="tools">
+                <div onclick="mic()" class="mic">
+                    <span class="material-symbols-outlined">
+                        mic
+                    </span>
+                </div>
+                <div onclick="text()" class="textbox">
+                    <span class="material-symbols-outlined">
+                        edit_note
+                    </span>
+                </div>
+                <div onclick="video()" class="video">
+                    <span class="material-symbols-outlined">
+                        videocam
+                    </span>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
